@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos {
     class PrimeiroPrograma {
-        public  static void Executar() {
-            System.Console.WriteLine("Primeiro");
+    
+        public static void Executar() {
+            System.Console.Write("Primeiro");
             Console.WriteLine("Programa");
             Console.WriteLine("Acabou!");
         }
-
     }
 }

@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos {
     class NotacaoPonto {
-        public static void Executar() {
-            string saudacao = "Olá ".ToUpper().Insert(3," Word!").Replace("Word","Mundo");
+    
+    public static void Executar() {
+            string saudacao = "Olá".ToUpper().Insert(3, "World!").Replace("World","Mundo");
             Console.WriteLine(saudacao);
+
         }
+
     }
 }

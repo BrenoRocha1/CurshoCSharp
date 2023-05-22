@@ -5,22 +5,26 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos {
-    class VariaveiseConstantes {
+    class VariaveisEConstantes {
         public static void Executar() {
-
+            // variavel
             double raio = 1.3;
 
+            // constante 
             const double pi = 3.14;
 
             double area = pi * raio * raio;
 
-            Console.WriteLine($"A área total é de: {area}");
+            Console.WriteLine("A área total é de: "+area);
 
-            string nome = "Breno";
-            int idade = 17;
+            string nome = "Cleiton";
+            int idade = 23;
             double altura = 1.90;
             bool temGato = true;
-            var sobrenome = "perez";
+            var sobrenome = "Perez";
+
+            Console.WriteLine($"Nome: {nome} \n Sobre nome: {sobrenome}  \n Idade: {idade} \n altura: {altura} \n Gatos? {temGato} ");
+
         }
     }
-    }
+}
