@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 
@@ -19,9 +19,15 @@ namespace CursoCSharp {
                 {"Operadores Atribuição - Fundamentos",OperadoresAtribuicao.Executar},
                 {"Estrutura WhileEFor",EstruturaWhileEFor.Executar},
                 {"NumerosContados",NumerosContados.Executar },
+                 
                 // Estrutura de Controle
                 {"EstuturaIf",EstruturaIf.Executar },
-                {"Exerciciosif",Exerciciosif.Executar }
+                {"Exerciciosif",Exerciciosif.Executar },
+
+                //Classes e metodos 
+                {"Membros",Membros.Executar },
+                {"Carros",Carros.Executar },
+
             });
 
             central.SelecionarEExecutar();

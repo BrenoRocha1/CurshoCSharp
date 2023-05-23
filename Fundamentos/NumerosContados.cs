@@ -11,9 +11,16 @@ namespace CursoCSharp.Fundamentos {
             int numero1 = 0;
             int resultado;
 
-            while (numero1 == resultado)
-                Console.WriteLine("Digite um numero: ");
-            int resultado = int.Parse(Console.ReadLine());
+
+            if(numero1 =? resultado{
+                while (numero1 == resultado)
+                    Console.WriteLine("Digite um numero: ");
+                int resultado = int.Parse(Console.ReadLine());
+            } else {
+                Console.WriteLine("Erro!");
+            }
+
+            
 
         }
     }
